@@ -1,0 +1,48 @@
+/* selector por clase*/
+.titulos{
+    color: aqua;
+    font-size: 30px;
+    background: blue;
+}
+
+/* selector por id*/
+
+#id_title{
+    color: black;
+    background-color: red;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* selector por pseudoclase(eventos)*/
+
+i:hover{
+    color: rgb(185, 228, 68);
+    font-size: 50px;
+}
+
+input:focus{
+border: 2px solid;
+border-color: rgb(74, 16, 129);
+background-color: cadetblue;
+color: brown;
+transition:ease-in 0.2s;
+}
+
+/*Selector por atributo */
+[id]{
+    color: rgb(166, 194, 109);
+    font-size: 35px;
+}
+
+img[alt="No2"]{
+    width: 80px;
+    height: 50px;
+}
+
+
+img[alt*="uce" ]{
+    width: 10%;
+    height: 5%;
+}
+

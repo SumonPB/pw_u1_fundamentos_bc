@@ -28,3 +28,6 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin-right: 30%;
         }
+        body {
+            background-color: black;
+        }
