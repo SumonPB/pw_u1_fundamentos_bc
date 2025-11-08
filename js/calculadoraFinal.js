@@ -25,8 +25,9 @@ function porcentaje(){
 }
 
 function clearDisplay(){
-    let elemento = document.getElementById('display');
+
     elemento.innerText = "";
 }
+
 
 
