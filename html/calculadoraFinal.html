@@ -18,7 +18,7 @@
                  <!--<label for="" id="display">0+1=1</label> -->
                 <div id="display"></div>
                  <button onclick="clearDisplay()">C</button>
-                <button>&larr;</button>
+                <button onclick="deleteChar()">&larr;</button>
                 <button onclick="mostrarDisplay('%')">%</button>
                 <button onclick="mostrarDisplay('/')">/</button>
                 <button onclick="mostrarDisplay(7)">7</button>
@@ -35,7 +35,7 @@
                 <button onclick="mostrarDisplay('+')">+</button>
                 <button onclick="mostrarDisplay('0')">0</button>
                 <button onclick="mostrarDisplay('.')">.</button>
-                <button class="colum_2">=</button>
+                <button class="colum_2" onclick="evaluar()">=</button>
             </div>
         </section>
         <nav>Barra de Navegación</nav>
