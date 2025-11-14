@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
 
 body {
@@ -57,11 +57,14 @@ input:focus{
     outline: none;
     border-bottom: 2px solid rgb(36, 160, 177);
 }
-
-
+/*-----------------------------------------------------*/
 i{
     color: rgb(59, 160, 135);
 }
+.mdi-alert-circle{
+    color: red;
+}
+/*-----------------------------------------------------*/
 footer{
     margin-top: 30px;
 }
@@ -89,4 +92,19 @@ header{
 h2,header{
     color: rgb(40, 138, 138);
     border-bottom: 1.5px solid rgb(24, 102, 102);
+}
+.msg_error{
+    border-radius: 10px;
+    background-color: rgb(141, 235, 235);
+    border-left: 2px solid red;
+    padding: 10px;
+    color: rgb(185, 8, 8);
+    font-weight: bold;
+    display: none;
+}
+.error_asterisco{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    display: none;
 }

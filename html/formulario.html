@@ -21,16 +21,33 @@
         <div class="formulario">
             <nav></nav>
             <section>
-                <form action="">
+                <form action="#">
                     <h2>Nuevo estudiante
                         <i class="mdi mdi-account-plus"></i>
                     </h2>
-                    <p type="Nombre"><i class="mdi mdi-account"></i><input type="text"></p>
-                    <p type="Apellido"><i class="mdi mdi-account"></i><input type="text"></p>
-                    <p type="Fecha de Nacimiento"><i class="mdi mdi-calendar-account-outline "></i><input type="date"></p>
-                    <p type="Email"><i class="mdi mdi-email"></i><input type="email"></p>
-                    <p type="Password"><i class="mdi mdi-eye-circle"></i><input type="password"></p>
-                    <div class="centrar_boton"><button>Guardar</button></div>
+                    <p type="Nombre"><i class="mdi mdi-account"></i><input id="id_nombre" type="text">
+                    <span id="id_error_nombre" class="error_asterisco"></span>
+                    </p>
+                    
+                    <p type="Apellido"><i class="mdi mdi-account"></i><input id="id_apellido" type="text">
+                    <span id="id_error_apellido" class="error_asterisco"></span>
+                    </p>
+                    
+                    <p type="Fecha de Nacimiento"><i class="mdi mdi-calendar-account-outline "></i><input id="id_fecha" type="date">
+                    <span id="id_error_fecha" class="error_asterisco"></span>
+                    </p>
+                    
+                    <p type="Email"><i class="mdi mdi-email"></i><input id="id_email" type="email">
+                    <span id="id_error_email" class="error_asterisco"></span>
+                    </p>
+                    
+                    <p type="Password"><i class="mdi mdi-eye-circle"></i><input id="id_password" type="password">
+                    <span id="id_error_password" class="error_asterisco"></span>
+                    </p>
+                    
+                    <div id="id_msg_error" class="msg_error">asd<i class="mdi mdi-alert-circle"></i></div>
+                    
+                    <div class="centrar_boton"><button onclick="guardar()">Guardar</button></div>
                 </form>
             </section>
         </div>
