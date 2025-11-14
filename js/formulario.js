@@ -69,7 +69,7 @@ function mostrarAsterisco(idElemento) {
 function limpiarMensajes() {
     let mensaje = document.getElementById('id_msg_error');
     mensaje.innerText = "";
-    mensaje.style.display = "none";
+    mensaje.style.display = "none"
 
     const erroresAsterisco = document.querySelectorAll('.error_asterisco');
     erroresAsterisco.forEach(e => e.innerText = '');
