@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="../css/taller1.css">
+    <script src="../js/taller1.js"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav></nav>
+    <div class="container">
+    <section>
+
+        <div class="formulario">
+        <div class="image">
+        <img src="../img/card.jpg" alt="No Cargo Correctamente" class="ima">
+        </div>
+
+        <form action="#">
+            <h1 class="title">Payment Deails</h1>
+            <label for="id_cardholdername">Cardholder Name <span id="id_error_nombre" class="error_asterisco">*</span></label>
+            
+            <input type="text" id="id_cardholdername"> 
+            <label for="id_cardnumber">Card Number <span id="id_error_nombre" class="error_asterisco">*</span></label>
+            <input type="text" name="" id="id_cardnumber">
+
+            <div class="grid">
+            <label for="id_expdate">Exp Date <span id="id_error_nombre" class="error_asterisco">*</span></label>
+            <input type="date" id="id_expdate">
+            <label for="id_cvv">CVV <span id="id_error_nombre" class="error_asterisco">*</span></label>
+            <input type="password" id="id_cvv">
+            <div id="id_msg_error" class="msg_error"></div>
+            </div>
+
+
+
+
+            <div class="botonstyle">
+
+            <button onclick="guardar">Confirm</button>
+        </div>
+
+            </div>
+
+        </form>
+    </section>
+    </div>
+    <footer></footer>
+</body>
+</html>
